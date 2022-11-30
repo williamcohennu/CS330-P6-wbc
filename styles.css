@@ -1,0 +1,43 @@
+h1 {
+   color: black;
+}
+
+#title {
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+#subtitle {
+  color: grey;
+  font-family: Helvetica;
+  margin-top: -10px;
+}
+
+#author {
+  color: black;
+  text-decoration: underline;
+}
+
+#italic {
+  font-style: italic;
+}
+
+.centered {
+  text-align: center;
+}
+
+.poem {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.poem-line {
+  margin-top: -10px;
+}
+
+.copyright {
+  margin-top: 70px;
+  color: grey;
+  font-family: Helvetica;
+  font-size: 12px;
+}
