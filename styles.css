@@ -45,6 +45,23 @@ body {
   width: auto;
 }
 
+.navigation-button-selected {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  float: right;
+  width: auto;
+  color: white;
+  background-color: black;
+}
+
+
+.navigation-button:hover {
+  background-color: black;
+  color: white;
+  cursor:grab;
+}
+
 #nav-button-marright {
   margin-right: 45px;
 }
