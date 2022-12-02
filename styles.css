@@ -68,11 +68,31 @@ body {
 #portfolio-shell {
   background-color: white;
   width: 250px;
-  height: 450px;
+  height: 640px;
   margin-left: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: inline-block;
+  float: left;
+}
+
+#pitches-shell {
+  background-color: white;
+  height: 640px;
+  width: calc(100% - 350px);
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: inline-block;
+  position: relative;
+}
+
+#home-body-shell {
+  width: 100%;
+  height: 700px;
+  position: relative;
 }
 
 #portfolio-title {
@@ -85,7 +105,7 @@ body {
 
 .portfolio-component {
   width: 90%;
-  height: 75px;
+  height: 95px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -93,6 +113,21 @@ body {
   border-radius: 10px;
 }
 
-#portfolio-component-marright {
+#portfolio-component-martop {
   margin-top: 20px;
+}
+
+.portfolio-component-name {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.portfolio-component-information {
+  font-size: 14px;
+  margin-top: -13px;
+  margin-left: 17px;
+  display: block;
+  color: grey;
 }
