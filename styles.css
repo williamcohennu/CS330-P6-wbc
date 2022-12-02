@@ -38,21 +38,28 @@ body {
 }
 
 .navigation-button {
-  margin-top: 10px;
+  margin-top: 2px;
   display: inline-block;
   font-size: 20px;
   float: right;
-  width: auto;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navigation-button-selected {
-  margin-top: 10px;
+  margin-top: 2px;
   display: inline-block;
   font-size: 20px;
   float: right;
   width: auto;
   color: white;
   background-color: black;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navigation-button:hover {
@@ -113,6 +120,67 @@ body {
   border-radius: 10px;
 }
 
+.pitch-component {
+  width: calc(100% - 40px);
+  height: 265px;
+  margin-left: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pitch-component-image-shell {
+  height: 265px;
+  width: 200px;
+  float: right;
+  position: relative;
+}
+
+.pitch-component-image-crowdstrike {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.pitch-component-image-everest {
+  width: 100%;
+  height: 37.3%;
+  position: relative;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.pitch-component-image-holder {
+  background-color: green;
+  width: 160px;
+  height: 160px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.pitch-read-full {
+  width: 160px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  line-height: 30px;
+  cursor: grab;
+}
+
+.pitch-component-information-shell {
+}
+
 #portfolio-component-martop {
   margin-top: 20px;
 }
@@ -124,10 +192,33 @@ body {
   display: inline-block;
 }
 
+.pitch-component-name {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.pitch-component-date {
+  font-size: 15px;
+  margin-top: -18px;
+  margin-left: 11px;
+}
+
 .portfolio-component-information {
   font-size: 14px;
   margin-top: -13px;
   margin-left: 17px;
   display: block;
   color: grey;
+}
+
+.pitch-preview {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: 11px;
+  display: block;
+  color: grey;
+  margin-right: 30px;
+  text-overflow: ellipsis;
 }
