@@ -30,6 +30,13 @@ body {
 
 }
 
+#resume {
+  margin-left: 10%;
+  margin-top: 40px;
+  width: calc(100% - 20%);
+  height: 800px;
+}
+
 #bio-text {
   color: grey;
   margin-left: 20px;
